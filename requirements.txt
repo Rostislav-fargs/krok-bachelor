@@ -1,0 +1,4 @@
+cffi==2.0.0
+cryptography==45.0.7
+pycparser==2.23
+pycryptodomex==3.23.0
