@@ -1,8 +1,8 @@
 .idea/
 .venv/
 
-test.py
+Tekhnolohiyi_zakhystu_informatsiyi/test.py
 *.txt
 
-!example.txt
-!requirements.txt
+!Tekhnolohiyi_zakhystu_informatsiyi/example.txt
+!Tekhnolohiyi_zakhystu_informatsiyi/requirements.txt
