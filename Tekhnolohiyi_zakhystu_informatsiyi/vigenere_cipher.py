@@ -13,7 +13,7 @@ class VigenereCipher:
         :param alphabet: Опціональний алфавіт, якщо None — використовується український.
         :type alphabet: Optional[str]
         """
-        default_alphabet = "абвгґдеєжзийіїйклмнопрстуфхцчшщьюя"
+        default_alphabet = "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
         self.alphabet = default_alphabet if alphabet is None else alphabet
         self.key = key.lower()
         self.alphabet_size = len(self.alphabet)
@@ -88,7 +88,7 @@ class VigenereCipher:
 if __name__ == "__main__":
     cipher = VigenereCipher(key="Шевченко")
 
-    with open("example.txt", "r", encoding="utf-8") as file:
+    with open("Tekhnolohiyi_zakhystu_informatsiyi/example.txt", "r", encoding="utf-8") as file:
         original = file.read()
 
     # Шифрування
