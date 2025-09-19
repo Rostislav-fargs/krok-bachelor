@@ -14,7 +14,7 @@ class CaesarCipher:
         :type alphabet: Optional[str]
         """
         self.shift = shift
-        default_alphabet = "абвгґдеєжзийіїйклмнопрстуфхцчшщьюя"
+        default_alphabet = "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
         self.alphabet = default_alphabet if alphabet is None else alphabet
         self.alphabet_size = len(self.alphabet)
 
